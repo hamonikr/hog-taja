@@ -1,0 +1,14 @@
+Source: hog-taja
+Section: gnome
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 4.1.4
+Homepage: https://hamonikr.org
+
+Package: hog-taja
+Architecture: all
+Depends: dosbox
+Replaces: 
+Description: Keyboard Typing Game for Korean.
+ 신의손 타자연습 프로그램.

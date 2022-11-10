@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Version=1.0
+Name=HOG Keyboard Practice
+Name[ko]=타자 연습 신의손
+Comment=Keyboard Typing Practice
+Comment[ko]=타자 연습 프로그램
+Icon=hog-taja
+Exec=/opt/hog-1.0/hog
+Terminal=false
+Categories=Game;
+Keywords=taja;keyboard;htt;
+Keywords[ko]=taja;keyboard;htt;한메타자;타자;키보드;

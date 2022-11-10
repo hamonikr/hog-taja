@@ -1,0 +1,26 @@
+#!/bin/bash
+
+case "$1" in
+    configure)
+
+        gtk-update-icon-cache
+        update-icon-caches /usr/share/icons
+        update-desktop-database /usr/share/applications
+        # Real Username
+        RUID=$(who | awk 'FNR == 1 {print $1}')
+        # Real User ID
+        RUSER_UID=$(id -u ${RUID})
+        chown ${RUID}:${RUID} /opt/hog-1.0
+        chown ${RUID}:${RUID} /opt/hog-1.0/* -R
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
