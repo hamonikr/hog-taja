@@ -2,4 +2,6 @@
 
 CWD=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+export SDL_AUDIODRIVER=pulse 
+
 dosbox -conf ${CWD}/hog.conf -exit ${CWD}/HOG.EXE
