@@ -8,6 +8,7 @@ case "$1" in
         update-desktop-database /usr/share/applications
         
         chmod 777 /opt/hog-1.0/* -R
+        chmod 777 /opt/hog-1.0
 
     ;;
 
