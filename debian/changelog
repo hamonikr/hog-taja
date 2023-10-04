@@ -1,3 +1,10 @@
+hog-taja (1.0.2) stable; urgency=low
+
+  [Kevin Kim]
+  * Release for HamoniKR 7.0
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 04 Oct 2023 13:35:33 +0900
+
 hog-taja (1.0.1) stable; urgency=low
 
   [Kevin Kim]
