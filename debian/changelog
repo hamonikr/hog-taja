@@ -1,3 +1,10 @@
+hog-taja (1.0.4) paektu; urgency=medium
+
+  [Kevin Kim]
+  * Release for HamoniKR paektu
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 29 Jul 2024 15:18:59 +0900
+
 hog-taja (1.0.3) stable; urgency=low
 
   [Kevin Kim]
